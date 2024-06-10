@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:5.0.27
+    image: mongo:7-jammy
 
     container_name: mongodb
     
@@ -15,5 +15,5 @@ services:
 
     restart: always
 
-  networks:
-    backend:
+networks:
+  backend:
