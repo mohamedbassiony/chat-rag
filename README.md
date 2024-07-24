@@ -13,6 +13,12 @@ Open source project, to serve the purposes of exploiting large language models i
 ```bash
 $ conda create -n chat-rag-app python=3.8
 ```
+
+Another way to create a new environment is by using the following command:
+```bash
+$ conda create --name chat-rag-app python=3.8
+```
+
 3) Activate the environment:
 ```bash
 $ conda activate chat-rag-app
